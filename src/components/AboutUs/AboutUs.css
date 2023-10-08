@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+
+/*GENERAL CHARACTARISTICS*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;   
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.AboutUs{
+    background-color: #272727;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 95vh;
+}
+
+.block{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    justify-content: center;
+}
+
+.imgBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block img{
+    width: 45rem;
+    margin-left: 10rem;
+}
+
+.textBlock{
+    color: #eee;
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ; 
+    text-align: center;   
+}
+
+.textBlock p{
+    font-size: 2rem;
+}
+
+.textBlock h1{
+    font-family: 'Days One', sans-serif;
+    font-size: 5rem;
+    margin-bottom: 3rem;
+}
+
+#block1{
+    border-radius: 80% 20% / 10% 40%;
+}
+
+#block2{
+    background-image: url("./img/code.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ourChallengeButton{
+    margin-top: 2rem;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    font-weight: bold;
+}
+
+@media (max-width: 1120px){
+    .block img{
+        width: 30rem;
+        margin-left: 1rem;
+    }
+
+    #block1{
+        border-radius: 0%;
+    }
+
+    .textBlock h1{
+        font-size: 4rem;
+    }
+
+    .textBlock p{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 600px){
+    .block img{
+        width: 100%;
+        margin: 2rem 0 0 0;
+    }
+
+    .textBlock{
+        width: 100%;
+        justify-content:center;
+        padding: 0 1rem;
+    }
+
+    #block2 div{
+        justify-content: center;
+    }
+
+    .block{
+        flex-wrap: wrap;
+        height: fit-content;
+        height: 50vh;
+    }
+
+    #block2{
+        padding: 5rem 0 5rem 0;
+    }
+
+    .AboutUs{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #block1{
+        border-radius: 0%;
+    }
+
+    .textBlock h1{
+        margin-bottom: 1rem;
+    }
+
+    .imgBlock{
+        height: fit-content;
+        display: none;
+    }
+}

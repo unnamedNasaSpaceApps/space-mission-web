@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+
+/*GENERAL CHARACTARISTICS*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;   
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.Demo{
+    background-color: #272727;
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+}
+
+.demo-block-content{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.demo-block-content h1{
+    font-family: 'Days One', sans-serif;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+.demo-block-content p{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.demo-block-content input{
+    margin-top: 2rem;
+    border: none;
+    padding: 1rem 3rem;
+    border-radius: .5rem;
+    background-color: #eee;
+    color: #272727;
+    font-weight: bold;
+}
+
+.demo-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10rem;
+    width: 100vw;
+}
+
+#demo-block1, #demo-block2, #demo-block3{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#demo-block1{
+    background-image: url("./img/demo1.jpg");
+} 
+
+#demo-block2{
+    background-image: url("./img/demo2.jpg");
+} 
+
+#demo-block3{
+    background-image: url("./img/demo3.jpg");
+}

@@ -1,0 +1,135 @@
+/*GENERAL CHARACTARISTICS*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;   
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.Navegacion{
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    z-index: 100;
+  }
+  
+  .Brand-OutUl{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .facebook{
+    margin-right: 2rem;
+  }
+  
+  .topnav {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+  }
+  
+  .topnav a {
+    float: left;
+    display: flex;
+    color: #fff;
+    text-align: center;
+    padding: 0.9rem;
+    margin: 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  .Brand{
+    font-weight: bold;
+    font-size: 2rem;
+    display: none;
+  }
+
+  nav a.active{
+    font-weight: bold;
+}
+  
+  @media (max-width: 600px) {
+    .topnav a:not(:first-child) {
+      display: none;
+    }
+  
+    .Brand-OutUl{
+      display: none;
+    }
+  
+    .Brand{
+      display: flex;
+    }
+  
+    .mid{
+      display: none;
+    }
+  
+    .imgs{
+      display: none;
+    }
+  
+    .topnav{
+      display: flex;
+      justify-content: space-between;
+      background-color: #333;
+      width: 100%;
+    }
+  
+    .topnav a.icon {
+      float: right;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .topnav.responsive{
+      position: fixed;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .topnav.responsive .mid{
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  
+    .topnav.responsive .nav-menu-item-contactanos{
+      width: min-content;
+    }
+  
+    .topnav.responsive a {
+      float: none;
+      display: flex;
+      text-align: left;
+    }
+  }

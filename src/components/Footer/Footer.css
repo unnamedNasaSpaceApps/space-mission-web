@@ -1,0 +1,40 @@
+/*GENERAL CHARACTARISTICS*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;   
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+footer{
+    background-color: #333;
+    height: 5vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.footerBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerBlock p{
+    color: #eee;
+    margin-right: 1rem;
+    font-size: 1rem;
+}
+
+.footerBlock img{
+    width: 2rem;
+}

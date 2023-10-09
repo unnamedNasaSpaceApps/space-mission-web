@@ -52,6 +52,10 @@ body{
     margin-top: 3rem;
 }
 
+#HomeSup{
+    font-size: 3rem;
+}
+
 @media (max-width: 1390px){
     .homeBlock{
         width: 80%;

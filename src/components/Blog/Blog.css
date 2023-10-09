@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+
+/*GENERAL CHARACTARISTICS*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;   
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.blog{
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #272727;
+    color: #eee;
+    flex-direction: column;
+}
+
+.blog h1{
+    font-size: 7rem;
+    font-family: 'Days One', sans-serif;    
+}
+
+p, h1{
+    text-align: center;
+}
+
+#mid{
+    margin-top: 5rem;
+    /*color: #E74C3C;*/
+    max-width: 80%;
+    font-weight: bold;
+}
+
+#bottom{
+    margin-top: 1rem;
+    font-weight: bold;
+    max-width: 80%;
+}
+
+@media (max-width: 1020px){
+    .blog h1{
+        font-size: 5rem;
+    }
+}

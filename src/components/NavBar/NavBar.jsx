@@ -11,20 +11,6 @@ import './NavBar.css';
 const NavBar = () =>{
     const [isNavExpanded, setIsNavExpanded] = useState(false);
 
-    /*return(
-        <nav className={isNavExpanded ? "topnav responsive" : "topnav"}>
-            <div className="unnamed">Unnamed.<sup>Team</sup></div>
-            <div className="mid">
-                <ul>
-                    <li><NavLink to="/" onClick={() => {setIsNavExpanded(!isNavExpanded);}}>Home</NavLink></li>
-                    <li><NavLink to="/about-us" onClick={() => {setIsNavExpanded(!isNavExpanded);}}>About us</NavLink></li>
-                    <li><NavLink to="/blog" onClick={() => {setIsNavExpanded(!isNavExpanded);}}>Blog</NavLink></li>
-                    <li><NavLink to="/demo" onClick={() => {setIsNavExpanded(!isNavExpanded);}}>Demo</NavLink></li>
-                </ul>
-            </div>
-        </nav>
-    );*/
-
     return(
         <nav className='Navegacion'>
           <div className='BrandOutUlSection'><Link to="https://www.spaceappschallenge.org/2023/find-a-team/unnamed/" target="_blank" className="Brand-OutUl">Unnamed.<sup>Team</sup></Link></div>

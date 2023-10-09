@@ -10,6 +10,7 @@ import { NavBar } from "./components/NavBar/NavBar";
 import { Home } from "./components/Home/Home";
 import { AboutUs } from "./components/AboutUs/AboutUs";
 import { Demo } from "./components/Demo/Demo";
+import { Blog } from "./components/Blog/Blog";
 import { Footer } from "./components/Footer/Footer";
 
 import ErrorPage from "./components/ErrorPage/ErrorPage";
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
       {
         path:"/demo",
         element: <Demo/>
+      },
+      {
+        path:"/blog",
+        element: <Blog/>
       }
     ]
   },

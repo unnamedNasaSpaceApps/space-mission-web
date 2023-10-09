@@ -51,7 +51,7 @@ body{
     color: #fff;
     text-align: center;
     padding: 0.9rem;
-    margin: 1rem;
+    margin: 1rem 5rem;
     text-decoration: none;
     font-size: 1.5rem;
   }
@@ -70,7 +70,7 @@ body{
     font-weight: bold;
 }
   
-  @media (max-width: 600px) {
+  @media (max-width: 780px) {
     .topnav a:not(:first-child) {
       display: none;
     }
@@ -103,9 +103,7 @@ body{
       display: flex;
       justify-content: space-between;
     }
-  }
-  
-  @media (max-width: 600px) {
+
     .topnav.responsive{
       position: fixed;
       display: flex;
@@ -132,4 +130,5 @@ body{
       display: flex;
       text-align: left;
     }
+
   }
